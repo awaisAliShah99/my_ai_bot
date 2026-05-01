@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-st.title("My Personal AI Bot 🤖")
+st.title("Welcome to AWAIS ai bot 🤖")
 
 # API Key setup
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
